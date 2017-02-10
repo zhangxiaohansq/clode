@@ -1,0 +1,14 @@
+@charset "utf-8";
+body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, table, td, img, div, dl, dt, dd, input, iframe { margin: 0; padding: 0; border: 0; }
+a{text-decoration:none; font-size:0.12rem;}
+ul, ol { list-style-type: none; }
+html { overflow-x: hidden;}
+input{ outline:none;}
+body{ font-size:14px; font-family:'微软雅黑';}
+.clearfix:after { content: ""; display: block; clear: both; }
+.clearfix { zoom: 1; }
+.fl { float: left; }
+.fr { float: right; }
+.dn{ display:none; }
+img{ width:100%;}
+.warper{ width:1200px; margin:0 auto;}

@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+a{ color:#333; font-size:14px; line-height:34px;}
+.header a:hover{ color:#2288f6;}
+
+.header h1{ margin-top:20px;}
+.header h1 a{ display:block; width:220px; height:62px; background:url(../img/logo.png) no-repeat; text-indent:-9999em;}
+.header .nav{ text-align:right;}
+.header .nav i{ width:14px; height:8px; background:url(../img/d_down.png) no-repeat;}
+.header .nav .user i{ margin:12px 0 0 4px;}
+.header .nav .user{ position:relative; display:inline-block;}
+.header .nav .user ul{ position:absolute; top:34px; left:-44px;; border:1px solid #e3e3e3; padding:10px; background:#fff; text-align:left;}
+.header .nav .user ul li{ white-space:nowrap;}
+.header .nav .user :hover i{ background:url(../img/d_up.png) no-repeat;}
+.header .nav .nav_list :hover i{ background:url(../img/d_up.png) no-repeat;}
+.header .nav .user:hover ul{ display:block; z-index:1000;}
+.header .nav .nav_list li{ padding:0 10px 18px;}
+.header .nav .nav_list a{ font-size:18px; line-height:48px;}
+.header .nav .nav_list a.active{ color:#2288f6;}
+.header .nav .nav_list i{ margin:20px 0 0 4px;}
+.header .nav .nav_list .shop{ position:relative;}
+.header .nav .nav_list .shop:hover dl{ display:block; z-index:999;}
+.header .nav .nav_list .shop dl{ position:absolute; top:66px; left:-80px; text-align:left; padding:10px 66px 20px 38px; white-space:nowrap; background:#fcfbfb;}
+.header .nav .nav_list .shop dt{ border-bottom:1px solid #e7e6e6; line-height:38px; margin-bottom:14px;}
+.header .nav .nav_list .shop dd{ padding-bottom:8px;}
+.header .nav .nav_list .shop dd a{ line-height:26px; font-size:14px;}
+.header .nav .nav_list .shop p{ color:#999; font-size:12px; line-height:24px;}
+
+.banner{ position:relative;}
+.banner .try_out{ position:absolute; bottom:50px; left:50%;}
+.banner .try_out p{ width:462px; color:#fff; font-size:22px; line-height:32px; margin-bottom:4px;}
+.banner .try_out a{ display:block; width:240px; height:66px; background:url(../img/store_red.jpg) no-repeat; color:#fff; font-size:24px; text-align:center; line-height:66px; border-radius:5px;}
+
+/*commin*/
+.title{ width:1000px; margin:0 auto; padding:60px 100px 30px; text-align:center; font-size:14px; color:#666;}
+.title .line{ display:block; width:100%; height:1px; background:#ccc; margin-bottom:-16px;}
+.title h2{ width:168px; color:#333; font-size:24px; text-align:center; margin:0 auto; background:#fafafa;}
+.title .h2{background:#fff;}
+.title .eng{ margin-bottom:14px;}
+.title p{ width:840px; margin:0 auto; color:#666; line-height:24px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+
+
+.product{ margin-bottom:76px;}
+.product .slide{ margin-right:-53px;}
+.product .slide li{ width:260px; margin-right:53px;}
+.product .slide li a{ display:block; width:260px; height:200px; background:#f6f6f6; padding-top:60px; font-size:20px; line-height:30px; text-align:center; margin-botto,:6px; border-radius:5px;}
+.product .slide li a i.store_1{ display:block; width:110px; height:110px; background:url(../img/store_p.png) no-repeat 0 -110px; margin:0 auto; margin-bottom:20px;}
+.product .slide li a i.store_2{ display:block; width:110px; height:106px; background:url(../img/store_p.png) no-repeat -110px -106px; margin:0 auto; margin-bottom:24px;}
+.product .slide li a i.store_3{ display:block; width:110px; height:115px; background:url(../img/store_p.png) no-repeat -220px -115px; margin:0 auto; margin-bottom:15px;}
+.product .slide li a i.store_4{ display:block; width:110px; height:102px; background:url(../img/store_p.png) no-repeat -330px -102px; margin:0 auto; margin-bottom:28px;}
+.product .slide h3{ font-size:18px; line-height:50px;}
+.product .slide p{ color:#666; line-height:22px;}
+
+
+
+.choice{ background:#fafafa; padding:60px 0 80px;}
+.choice h2{text-align:center; line-height:30px; margin-bottom:130px;}
+.choice h2 span{ color:#0b95ed;}
+
+
+.choice .con{ text-align:center;}
+.choice ul{ margin-right:-13px; display:inline-block}
+.choice .con li{ width:228px; height:428px; background:#fff; border:1px solid #e7e8e9; position:relative; cursor:pointer; margin-right:13px;}
+.choice .con li .toup{ padding:48px 0; position:absolute; top:0; left:0; z-index:99;}
+.choice .con li .toup i{ display:block; width:178px; height:178px; background:url(../img/store_c.png) no-repeat; margin:0 auto 98px;}
+.choice .con li .toup h3{ font-size:18px; line-height:50px; text-align:center;}
+.choice .con li .toup p{ color:#666; line-height:24px; padding:0 30px; height:48px; overflow:hidden;}
+/* .choice .con li .toup:hover p{ height:100px;}
+.choice .con li .toup:hover{ top:-100px;} */
+
+
+
+.footer .left{ width:484px; height:370px; background:url(../img/store_f.png) no-repeat; padding-top:100px;}
+
+.footer{ padding-top:100px;}
+.footer .right{ padding-top:56px;}
+.footer .right span{ font-size:18px; line-height:82px;}
+.footer .right p{ font-size:30px;line-height:40px; color:#659ae9;}
+.footer .right p.last{ margin-bottom:40px;}
+.footer .right a{ display:block; width:260px; height:64px; background:url(../img/store_b.jpg) no-repeat; background-size:100% 100%; color:#fff; font-size:24px; line-height:64px; text-align:center;}
+.footer .right a b{ display:inline-block; width:30px; height:30px; border:1px solid #fff; border-radius:50%; text-align:center; line-height:26px; margin-left:4px;}
+
+
+/* --------------------底部-------------------*/
+.x_foot{
+	width: 100%;
+	height: 90px;
+	background: #212425;
+	text-align: center;	
+}
+.x_foot .x_f .touch li{
+	padding-left: 14px;	
+}
+.x_foot a{
+	border-right: 1px solid #7e7e7e;
+	color: #f0f1f1;
+	font-size: 14px;
+	padding-right: 14px;
+}
+.x_foot a:hover{
+	color: #2274d0;
+	text-decoration: underline;
+}
+.x_foot .last{
+	border-right:0;
+}
+.x_foot  ol{
+	display: inline-block;
+}
+.x_foot p{
+	color: #8d8d8d;
+	font-size: 12px;	
+}
+.x_foot span{
+	color: #888;
+	font-size: 16px;
+	line-height: 90px;
+}
+.x_foot .x_f{
+	display: inline-block;
+}
+.x_foot .touch{
+	margin-top: 20px;
+	margin-right: 30px;
+}
+.x_foot i{
+	display: inline-block;
+	width: 32px;
+	height: 23px;
+	background: url(../img/tel.png) no-repeat;
+	vertical-align: middle;
+	margin-top: -6px;
+	margin-right: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

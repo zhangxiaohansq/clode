@@ -1,0 +1,194 @@
+a{ color:#333; font-size:14px; line-height:34px;}
+a:hover{ color:#2288f6;}
+
+.header h1{ margin-top:20px;}
+.header h1 a{ display:block; width:220px; height:62px; background:url(../img/logo.png) no-repeat; text-indent:-9999em;}
+.header .nav{ text-align:right;}
+.header .nav i{ width:14px; height:8px; background:url(../img/d_down.png) no-repeat;}
+.header .nav .user i{ margin:12px 0 0 4px;}
+.header .nav .user{ position:relative; display:inline-block;}
+.header .nav .user ul{ position:absolute; top:34px; left:-44px;; border:1px solid #e3e3e3; padding:10px; background:#fff; text-align:left;}
+.header .nav .user ul li{ white-space:nowrap;}
+.header .nav .user :hover i{ background:url(../img/d_up.png) no-repeat;}
+.header .nav .nav_list :hover i{ background:url(../img/d_up.png) no-repeat;}
+.header .nav .user:hover ul{ display:block; z-index:1000;}
+.header .nav .nav_list li{ padding:0 10px 18px;}
+.header .nav .nav_list a{ font-size:18px; line-height:48px;}
+.header .nav .nav_list a.active{ color:#2288f6;}
+.header .nav .nav_list i{ margin:20px 0 0 4px;}
+.header .nav .nav_list .shop{ position:relative;}
+.header .nav .nav_list .shop:hover dl{ display:block; z-index:999;}
+.header .nav .nav_list .shop dl{ position:absolute; top:66px; left:-80px; text-align:left; padding:10px 66px 20px 38px; white-space:nowrap; background:#fcfbfb;}
+.header .nav .nav_list .shop dt{ border-bottom:1px solid #e7e6e6; line-height:38px; margin-bottom:14px;}
+.header .nav .nav_list .shop dd{ padding-bottom:8px;}
+.header .nav .nav_list .shop dd a{ line-height:26px; font-size:14px;}
+.header .nav .nav_list .shop p{ color:#999; font-size:12px; line-height:24px;}
+
+/*banner*/
+.banner{ position:relative; margin-bottom: 60px;}
+.banner img{ display:block;}
+.banner ul{ width:500%; position:relative; top:0; left:0;}
+.banner ul li{ width:20%; min-width:1200px; max-width:1920px;}
+.banner ol{ position:absolute; bottom:24px; left:46%;}
+.banner ol li{ width:12px; height:12px; border:1px solid #fff; border-radius:50%; background:#fff; margin-right:20px;}
+.banner ol li.active{ background:none;}
+
+/* --------------------产品简介 -------------------*/
+.x_intro{
+	margin-bottom: 62px;
+}
+.x_header{
+	text-align: center;
+	margin-bottom: 42px;
+}
+.x_ip{
+	width: 998px;
+	height: 1px;
+	background: #ccc;
+	margin: 16px auto -16px;
+}
+.x_h3{
+	line-height: 32px;
+	width: 136px;
+	background: #fff;
+	margin: 0 auto;
+	font-size: 24px;
+}
+.x_product{
+	color: #747474;
+	line-height: 22px;
+}
+
+.x_cp1, .x_cp2{
+	width: 576px;
+	line-height: 22px;
+	color: #666;
+	font-size: 16px;
+}
+.img1{
+	width: 398px;
+	height: 330px;
+}
+.x_content1{
+	padding-top: 102px;
+	margin-right: 106px;
+}
+.x_con{
+	width: 1080px;
+	margin: 0 auto;
+}
+/* --------------------产品优势 -------------------*/
+.img2{
+	width: 383px;
+	height: 358px;
+}
+.x_content2{
+	padding-top: 102px;
+	margin-right: 0;
+	margin-left: 120px;
+}
+.x_h4{
+	font-size: 20px;
+	line-height: 36px;
+}
+.x_yp1{
+	margin-bottom: 3px;
+}
+.x_con1{
+	margin-bottom: 72px;
+}
+/* --------------------创建商城-------------------*/
+.x_mark{
+	position: relative;
+	width: 256px;
+	line-height: 52px;
+	border:2px solid #fe982d;
+	border-radius: 6px;
+	margin: 0 auto;
+	margin-bottom: 90px;
+}
+.rim{
+	display: block;
+	font-size: 20px;
+	color: #fe982d;
+	text-align: center;
+}
+.rim:hover{
+	background:#fe982d;
+	color: #fff; 
+}
+.x_mark span{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: #ccc;
+	border-radius: 50px;
+	opacity: 0.2;
+	filter: alpha(opacity:20);
+	position: absolute;
+	top: -14px;
+	right: 30px;
+	}
+.x_mark i{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: #fe982d;
+	border-radius: 50px;
+	opacity: 1;
+	filter: alpha(opacity:100);
+	position: absolute;
+	top: -8px;
+	right: 37px;
+}
+/* --------------------底部-------------------*/
+.x_foot{
+	width: 100%;
+	height: 90px;
+	background: #212425;
+	text-align: center;	
+}
+.x_foot .x_f .touch li{
+	padding-left: 14px;	
+}
+.x_foot a{
+	border-right: 1px solid #7e7e7e;
+	color: #f0f1f1;
+	font-size: 14px;
+	padding-right: 14px;
+}
+.x_foot a:hover{
+	color: #2274d0;
+	text-decoration: underline;
+}
+.x_foot .last{
+	border-right:0;
+}
+.x_foot  ol{
+	display: inline-block;
+}
+.x_foot p{
+	color: #8d8d8d;
+	font-size: 12px;	
+}
+.x_foot span{
+	color: #888;
+	font-size: 16px;
+	line-height: 90px;
+}
+.x_foot .x_f{
+	display: inline-block;
+}
+.x_foot .touch{
+	margin-top: 20px;
+	margin-right: 30px;
+}
+.x_foot i{
+	display: inline-block;
+	width: 32px;
+	height: 23px;
+	background: url(../img/tel.png) no-repeat;
+	vertical-align: middle;
+	margin-top: -6px;
+	margin-right: 6px;
+}

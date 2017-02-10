@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+
+.header{ padding:30px 0 12px 30px;}
+.header h1 a{ display:block; width:220px; height:62px; background:url(../img/logo.png) no-repeat; text-indent:-9999em;}
+
+
+.banner{ position:relative;}
+
+.banner form{ width:300px; background:#fff; padding:20px 40px; position:absolute; top:90px; right:10px;}
+.banner form h2{ font-size:20px; line-height:40px;text-align:center;}
+.banner form .error{ width:100%; font-size:12px; color:#fb0303; text-align:center; line-height:24px; border:1px solid #ffe57d; background:#fff6d2; margin-bottom:10px; visibility:hidden;}
+
+
+.banner .username{ width:260px; background:#fff; height:34px; padding-left:40px; border:1px solid #ccc; position:relative; margin-bottom:20px;}
+.banner .username label{ position:absolute; top:0; left:0; width:31px; height:28px; background:#f3f4f4; border-right:1px solid #ccc; padding-top:6px;} 
+.banner .username label i{ display:block; margin:0 auto; width:20px; height:20px; background:url(../img/enter_n.png) no-repeat 0 0;}
+.banner .username input{ width:100%; height:100%; color:#ccc;}
+
+.banner .password{ width:260px; background:#fff; height:34px; padding-left:40px; border:1px solid #ccc; position:relative; margin-bottom:20px;}
+.banner .password label{ position:absolute; top:0; left:0; width:31px; height:28px; background:#f3f4f4; border-right:1px solid #ccc; padding-top:6px;} 
+.banner .password label i{ display:block; margin:0 auto; width:20px; height:20px; background:url(../img/enter_n.png) no-repeat -20px 0;}
+.banner .password input{ width:100%; height:100%;}
+
+
+.banner .rem{ text-align:left; line-height:20px; margin-bottom:12px;}
+.banner .rem input{ vertical-align:middle;}
+.banner .rem a{ color:#666; font-size:12px;}
+.banner a:hover{ color:#3e7ee7;}
+.banner{ text-align:center;}
+#login{ width:260px; height:36px; background:#3e7ee7; color:#fff; text-align:center; line-height:36px; cursor:pointer; border-radius:4px;}
+
+.banner .new{ display:block; text-align:right; color:#666; font-size:12px; line-height:22px;}
+.footer{ padding:40px 0 246px;}
+.footer p{ line-height:24px; font-size:12px; text-align:center;}
+
+
+
+

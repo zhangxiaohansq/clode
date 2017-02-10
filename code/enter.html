@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link href="../css/base.css" rel="stylesheet" />
+<link href="../css/enter.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="header warper">
+    	<h1>
+        	<a href="../index.html">云道</a>
+        </h1>
+    </div>
+    
+    <div class="banner">
+    	<img src="../img/enter_b.png" alt="" />
+        <form action="yundao.php" method="post">
+        	<h2>用户登录</h2>
+            <p class="error">用户名或密码错误</p>
+            <div class="username">
+            	<label for="username">
+                	<i></i>
+                </label>
+                <input type="text" name="username" id="username" />
+            </div>
+            <div class="password">
+            	<label for="password">
+                	<i></i>
+                </label>
+                <input type="password" name="password" id="password" />
+            </div>
+            <div class="rem">
+            	<input type="checkbox" name="checkbox" id="checkbox" />
+                <label for="checkbox">记住帐号</label>
+                <a href="javascript:;" class="fr">忘记密码?</a>
+            </div>
+            <input type="submit" value="登录" name="login" id="login" />
+            <a href="register.html" class="new"><<新用户注册</a>
+        </form>
+    </div>
+    <div class="footer warper">
+    	<p>Copyright©2015 海云网络科技有限公司版权所有 | 苏ICP备B1-201100001 </p>
+    </div>
+</body>
+</html>

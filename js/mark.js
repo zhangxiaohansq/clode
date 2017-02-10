@@ -1,0 +1,5 @@
+'use strict';
+
+DOMReady(function(){
+	
+});
